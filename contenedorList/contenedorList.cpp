@@ -7,6 +7,7 @@
 
 using namespace std;
 
+
 int main()
 {
     
@@ -21,8 +22,9 @@ int main()
     datos.push_front(2);// datos por el principio de la lista
     datos.push_front(4);
 
-    // ordenamos los elementos de menor a mayor
+    // ordenamos los elementos de menor a mayor, con reverse() es de es de mayor a menor
     datos.sort();
+   
 
     // eliminamos lo elementos iniciales y finales
     datos.pop_back();
