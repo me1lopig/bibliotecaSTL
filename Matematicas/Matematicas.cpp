@@ -9,7 +9,7 @@
 #include<fstream> //libreria de archivos
 #include<vector>
 #include<algorithm> // libreria que contiene las funciones matematicas
-#include<numeric>
+#include<numeric> // otra liberia de STL
 
 
 using namespace std;
